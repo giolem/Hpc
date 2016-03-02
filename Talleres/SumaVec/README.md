@@ -8,7 +8,7 @@ Además se hizo una prueba extra con valores más grandes para la GPU, que se tr
 ##Tabla de datos tomados al ejecutar el algoritmo de suma en la CPU:
 
 
-|       Número de datos vs Tiempo        |
+|       Número de datos | Tiempo        |
 |---------------------|
 |1           |0,000001|
 |10          |0,000001|
@@ -29,7 +29,7 @@ Además se hizo una prueba extra con valores más grandes para la GPU, que se tr
 
 
 
-|       Número de datos vs Tiempo        |
+|       Número de datos | Tiempo        |
 |---------------------|
 |1           |0,092663|
 |10          |0,094731|
