@@ -5,7 +5,7 @@
 Para realizar las pruebas se tomaron 10 datos diferentes para un tamaño de vector en específico, se tienen 12 valores diferentes para dicho tamaño, para ver el comportamiento en términos de tiempo que resulta al ejecutar dos algoritmos diferentes tanto en el ámbito secuencial (CPU) como en el paralelo (GPU).
 Además se hizo una prueba extra con valores más grandes para la GPU, que se traduce en mayor número de bloques y de hilos en las pruebas.
 
-tabla de datos tomados al ejecutar el algoritmo de suma en la CPU:
+##Tabla de datos tomados al ejecutar el algoritmo de suma en la CPU:
 
 
 |       Número de datos vs Tiempo        |
@@ -24,7 +24,7 @@ tabla de datos tomados al ejecutar el algoritmo de suma en la CPU:
 |60000000    |0,155498|
 
 
-Tabla de datos tomados al ejecutar el algoritmo de suma en la GPU:
+##Tabla de datos tomados al ejecutar el algoritmo de suma en la GPU:
 
 
 
