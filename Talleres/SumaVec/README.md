@@ -57,7 +57,7 @@ Gráfico tabla de datos tomados al ejecutar el algoritmo de suma en la GPU:
 
 Número de datos vs Tiempos:
 
-![alt tag](GGPU.png)
+![alt tag](GGPU.jpg)
 
 Análisis:
 
