@@ -66,4 +66,4 @@ Análisis:
 
 -Los tiempos en GPU desde una primera instancia son más altos que los de la CPU por el hecho de tener que transferir el uso de la CPU a la GPU por medio de cudaMemcopy.
 
--En este método no se aprovecha al máximo la computación en paralelo ya que en estos procesos tan simples a la CPU le cuesta menos porque no hay que hacer la copia en memoria ya mensionada.
+-En este método no se aprovecha al máximo la computación en paralelo ya que en estos procesos tan simples a la CPU le cuesta menos porque no hay que hacer la copia en memoria ya mencionada.
