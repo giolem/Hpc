@@ -9,7 +9,7 @@ Además se hizo una prueba extra con valores más grandes para la GPU, que se tr
 
 
 |       Número de datos | Tiempo        |
-|---------------------|
+|---------------------| ----------------|
 |1           |0,000001|
 |10          |0,000001|
 |100         |0,000003|
@@ -29,7 +29,7 @@ Además se hizo una prueba extra con valores más grandes para la GPU, que se tr
 
 
 |       Número de datos | Tiempo        |
-|---------------------|
+|---------------------| ----------------|
 |1           |0,092663|
 |10          |0,094731|
 |100         |0,098808|
