@@ -1,10 +1,12 @@
 #A continuación se muestra un comparativo entre el procesamiento por medio de CPU y el hecho a partir de una GPU.
+
 ##Método de comparativo:
 
 Para realizar las pruebas se tomaron 10 datos diferentes para un tamaño de vector en específico, se tienen 12 valores diferentes para dicho tamaño, para ver el comportamiento en términos de tiempo que resulta al ejecutar dos algoritmos diferentes tanto en el ámbito secuencial (CPU) como en el paralelo (GPU).
 Además se hizo una prueba extra con valores más grandes para la GPU, que se traduce en mayor número de bloques y de hilos en las pruebas.
+
 tabla de datos tomados al ejecutar el algoritmo de suma en la CPU:
-N
+
 
 |       Número de datos vs Tiempo        |
 |---------------------|
@@ -21,9 +23,10 @@ N
 |30000000    |0,07598|
 |60000000    |0,155498|
 
+
 Tabla de datos tomados al ejecutar el algoritmo de suma en la GPU:
 
-Número de datos     Tiempo
+
 
 
 |       Número de datos vs Tiempo        |
@@ -45,17 +48,17 @@ Número de datos     Tiempo
 
 Los siguientes gráficos nos muestran el comportamiento de los datos en ambas partes:
 
-Gráfico tabla de datos tomados al ejecutar el algoritmo de suma en la CPU:
+#Gráfico tabla de datos tomados al ejecutar el algoritmo de suma en la CPU:
 
-Número de datos vs Tiempo:
+##Número de datos vs Tiempo:
 
 
 
 ![alt tag](GCPU.png)
 
-Gráfico tabla de datos tomados al ejecutar el algoritmo de suma en la GPU:
+#Gráfico tabla de datos tomados al ejecutar el algoritmo de suma en la GPU:
 
-Número de datos vs Tiempos:
+##Número de datos vs Tiempos:
 
 ![alt tag](GGPU.jpg)
 
