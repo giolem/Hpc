@@ -6,8 +6,8 @@
 #include <unistd.h> 
 #include <cuda.h>
 
-#define rows 32
-#define cols 32
+#define rows 64
+#define cols 64
 
 #define TILE_WIDTH 32
 
