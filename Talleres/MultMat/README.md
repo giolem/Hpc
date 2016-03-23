@@ -30,7 +30,7 @@ Toma de datos | Tiempo|
 
 
 
-# Los valores en memoria compartida van de 32 en 32 ya que es la forma en la que se divide la matriz aplanada para ejecutar paralelamente la multiplicación.
+## Los valores en memoria compartida van de 32 en 32 ya que es la forma en la que se divide la matriz aplanada para ejecutar paralelamente la multiplicación.
 
 ## Tabla de datos tomados al ejecutar el algoritmo de multiplicación usando memoria compartida en la CPU:
 
