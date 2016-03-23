@@ -9,7 +9,7 @@
 #define rows 50
 #define cols 50
 
-
+//Paralelo ingenuo.
 __global__ void multiplicar(int *m1_a, int *m2_a, int *m3_a){
 	
   	int i,j;
