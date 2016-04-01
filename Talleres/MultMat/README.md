@@ -1,4 +1,4 @@
-# A continuación se muestra un comparativo entre el procesamiento por medio de CPU y el hecho a partir de una GPU, aplicado a una multipliación de matrices.
+# A continuación se muestra un comparativo entre el procesamiento por medio de CPU y el hecho a partir de una GPU, aplicado a una multiplicación de matrices.
 
 ## Método de comparativo:
 
