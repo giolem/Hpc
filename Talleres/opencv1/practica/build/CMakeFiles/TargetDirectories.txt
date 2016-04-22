@@ -1,0 +1,1 @@
+/home/hera_hpccourse/gio/Hpc/Talleres/opencv1/practica/build/CMakeFiles/sobel.dir
