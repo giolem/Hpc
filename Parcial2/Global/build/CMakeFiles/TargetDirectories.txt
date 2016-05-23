@@ -1,0 +1,1 @@
+/home/hera_hpccourse/gio/Hpc/Parcial2/Global/build/CMakeFiles/Global.dir
