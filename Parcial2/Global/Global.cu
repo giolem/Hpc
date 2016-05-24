@@ -139,7 +139,7 @@ int main(int argc, char **argv){
     endGPU = clock();
     cudaMemcpy(h_sobelOutput,d_sobelOutput,sizeGray,cudaMemcpyDeviceToHost);
     endGPU = clock();
-// aca
+/*
     Mat gray_image;
     gray_image.create(height,width,CV_8UC1);
     gray_image.data = h_imageOutput;
@@ -157,12 +157,12 @@ int main(int argc, char **argv){
     imshow("Sobel Image OpenCV",sobel_image);
     waitKey(0);
 
-//aca
+*/
     gpu_time_used = ((double) (endGPU - startGPU)) / CLOCKS_PER_SEC;
     
    
     
-    printf("%.10f;\n",gpu_time_used);
+    printf("%.10f\n",gpu_time_used);
 
     cudaFree(d_dataRawImage);
     cudaFree(d_imageOutput);

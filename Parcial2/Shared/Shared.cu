@@ -147,17 +147,17 @@ int main(int argc, char **argv){
     gray_image.create(height,width,CV_8UC1);
     gray_image.data = h_imageOutput;
 
-    //start = clock();
+    /*start = clock();
     Mat gray_image_opencv, grad_x, abs_grad_x;
     cvtColor(image, gray_image_opencv, CV_BGR2GRAY);
     Sobel(gray_image_opencv,grad_x,CV_8UC1,1,0,3,1,0,BORDER_DEFAULT);
     convertScaleAbs(grad_x, abs_grad_x);
     end = clock();
-    //
+    */
 
 
     imwrite("./Sobel_Image.jpg",gray_image);
-//
+/*
  namedWindow(imageName, WINDOW_NORMAL);
    namedWindow("Gray Image CUDA", WINDOW_NORMAL);
    namedWindow("Sobel Image OpenCV", WINDOW_NORMAL);
@@ -165,9 +165,9 @@ int main(int argc, char **argv){
    imshow("Gray Image CUDA", gray_image);
    imshow("Sobel Image OpenCV",abs_grad_x);
    waitKey(0);
-//
-//
-    free(dataRawImage);
+*/
+
+//    free(dataRawImage);
     gpu_time_used = ((double) (endGPU - startGPU)) / CLOCKS_PER_SEC;
     //printf("Tiempo Algoritmo Paralelo: %.10f\n",gpu_time_used);
     //cpu_time_used = ((double) (end - start)) /CLOCKS_PER_SEC;
