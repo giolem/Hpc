@@ -133,8 +133,8 @@ int main(int argc, char **argv){
 
     startGPU = clock();
     
-  cudaMemcpy(d_dataRawImage,dataRawImage,size, cudaMemcpyHostToDevice);
-  cudaMemcpyToSymbol(M,h_M,sizeof(char)*MASK_WIDTH*MASK_WIDTH);
+    cudaMemcpy(d_dataRawImage,dataRawImage,size, cudaMemcpyHostToDevice);
+    cudaMemcpyToSymbol(M,h_M,sizeof(char)*MASK_WIDTH*MASK_WIDTH);
 	cudaMemcpyToSymbol(Mt,h_Mt,sizeof(char)*MASK_WIDTH*MASK_WIDTH);
 
 

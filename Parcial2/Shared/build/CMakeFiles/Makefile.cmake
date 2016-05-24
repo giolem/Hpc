@@ -11,7 +11,7 @@ SET(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/2.8.12.2/CMakeCCompiler.cmake"
   "CMakeFiles/2.8.12.2/CMakeCXXCompiler.cmake"
   "CMakeFiles/2.8.12.2/CMakeSystem.cmake"
-  "CMakeFiles/Global.dir/Global_generated_Global.cu.o.depend"
+  "CMakeFiles/Shared.dir/Shared_generated_Shared.cu.o.depend"
   "/usr/local/share/OpenCV/OpenCVConfig-version.cmake"
   "/usr/local/share/OpenCV/OpenCVConfig.cmake"
   "/usr/local/share/OpenCV/OpenCVModules-release.cmake"
@@ -44,11 +44,11 @@ SET(CMAKE_MAKEFILE_OUTPUTS
 
 # Byproducts of CMake generate step:
 SET(CMAKE_MAKEFILE_PRODUCTS
-  "CMakeFiles/Global.dir/Global_generated_Global.cu.o.cmake"
+  "CMakeFiles/Shared.dir/Shared_generated_Shared.cu.o.cmake"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 SET(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/Global.dir/DependInfo.cmake"
+  "CMakeFiles/Shared.dir/DependInfo.cmake"
   )
