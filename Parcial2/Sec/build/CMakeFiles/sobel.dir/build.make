@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hera_hpccourse/gio/Hpc/Talleres/opencv1/practica
+CMAKE_SOURCE_DIR = /home/hera_hpccourse/gio/Hpc/Parcial2/Sec
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hera_hpccourse/gio/Hpc/Talleres/opencv1/practica/build
+CMAKE_BINARY_DIR = /home/hera_hpccourse/gio/Hpc/Parcial2/Sec/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/sobel.dir/depend.make
@@ -54,17 +54,17 @@ include CMakeFiles/sobel.dir/flags.make
 
 CMakeFiles/sobel.dir/sobel.cc.o: CMakeFiles/sobel.dir/flags.make
 CMakeFiles/sobel.dir/sobel.cc.o: ../sobel.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/hera_hpccourse/gio/Hpc/Talleres/opencv1/practica/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hera_hpccourse/gio/Hpc/Parcial2/Sec/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/sobel.dir/sobel.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sobel.dir/sobel.cc.o -c /home/hera_hpccourse/gio/Hpc/Talleres/opencv1/practica/sobel.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sobel.dir/sobel.cc.o -c /home/hera_hpccourse/gio/Hpc/Parcial2/Sec/sobel.cc
 
 CMakeFiles/sobel.dir/sobel.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sobel.dir/sobel.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/hera_hpccourse/gio/Hpc/Talleres/opencv1/practica/sobel.cc > CMakeFiles/sobel.dir/sobel.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/hera_hpccourse/gio/Hpc/Parcial2/Sec/sobel.cc > CMakeFiles/sobel.dir/sobel.cc.i
 
 CMakeFiles/sobel.dir/sobel.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sobel.dir/sobel.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/hera_hpccourse/gio/Hpc/Talleres/opencv1/practica/sobel.cc -o CMakeFiles/sobel.dir/sobel.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/hera_hpccourse/gio/Hpc/Parcial2/Sec/sobel.cc -o CMakeFiles/sobel.dir/sobel.cc.s
 
 CMakeFiles/sobel.dir/sobel.cc.o.requires:
 .PHONY : CMakeFiles/sobel.dir/sobel.cc.o.requires
@@ -144,6 +144,6 @@ CMakeFiles/sobel.dir/clean:
 .PHONY : CMakeFiles/sobel.dir/clean
 
 CMakeFiles/sobel.dir/depend:
-	cd /home/hera_hpccourse/gio/Hpc/Talleres/opencv1/practica/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hera_hpccourse/gio/Hpc/Talleres/opencv1/practica /home/hera_hpccourse/gio/Hpc/Talleres/opencv1/practica /home/hera_hpccourse/gio/Hpc/Talleres/opencv1/practica/build /home/hera_hpccourse/gio/Hpc/Talleres/opencv1/practica/build /home/hera_hpccourse/gio/Hpc/Talleres/opencv1/practica/build/CMakeFiles/sobel.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/hera_hpccourse/gio/Hpc/Parcial2/Sec/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hera_hpccourse/gio/Hpc/Parcial2/Sec /home/hera_hpccourse/gio/Hpc/Parcial2/Sec /home/hera_hpccourse/gio/Hpc/Parcial2/Sec/build /home/hera_hpccourse/gio/Hpc/Parcial2/Sec/build /home/hera_hpccourse/gio/Hpc/Parcial2/Sec/build/CMakeFiles/sobel.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/sobel.dir/depend
 

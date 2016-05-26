@@ -73,7 +73,7 @@ int main(int argc, char **argv){
 
 		printf("%.10f\n", time);
 
-/*
+//
     imwrite("./Sobel_Image.jpg",gray_image);
 
     namedWindow(imageName, WINDOW_NORMAL);
@@ -86,6 +86,6 @@ int main(int argc, char **argv){
 
     waitKey(0);
     
-    */
+    //
     return 0;
 }

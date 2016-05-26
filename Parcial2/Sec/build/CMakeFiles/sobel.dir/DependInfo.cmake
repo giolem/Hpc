@@ -4,7 +4,7 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/hera_hpccourse/gio/Hpc/Talleres/opencv1/practica/sobel.cc" "/home/hera_hpccourse/gio/Hpc/Talleres/opencv1/practica/build/CMakeFiles/sobel.dir/sobel.cc.o"
+  "/home/hera_hpccourse/gio/Hpc/Parcial2/Sec/sobel.cc" "/home/hera_hpccourse/gio/Hpc/Parcial2/Sec/build/CMakeFiles/sobel.dir/sobel.cc.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 
