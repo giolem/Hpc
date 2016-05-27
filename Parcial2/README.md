@@ -1,7 +1,7 @@
 # A continuación se muestra un comparativo entre el procesamiento efectuado por una CPU y el hecho a partir de una GPU en el procesamiento de imágenes.
 
 ## Método de comparativa.
-Para realizar este marco comparativo se implementó el filtro de Sobel en cuatro medidas diferentes, que si somos más rigurosos serían dos en total, estas son Secuencial (Implementada en CPU), Memoria Compartida, Memoria Caché y Memoria Global, que en resumidas cuentas son procesamiento paralelo (Implementada en GPU).
+Para realizar este marco comparativo se implementó el filtro de Sobel en cuatro medidas diferentes, que si somos más rigurosos serían dos en total, estas son Secuencial (Implementada en CPU), Memoria Compartida, Memoria Caché y Memoria Global, que en resumidas cuentas son procesamiento paralelo (Implementada en GPU). Para implementar este filtro se hace un proceso de convolución el cual consiste en aplicar la matriz específica del filtro además de su forma aritmética, esto en una función de barrido en x, y su transpuesta en una función de barrido y. esta matriz la utilizamos en términos de matriz aplanada o vector, que recibe el nombre de kernel el cual va ser aplicado en cada pixel de la imágen.
 
 Para realizar la toma de datos se utilizaron 8 tamaños de imágenes diferentes. Estos tamaños se seleccionaron a partir de diferentes resoluciones de pantalla que encontramos en la cotidianidad. Estas resoluciones son:
 90p, 180p, 480p, 720p, 1080p, 2k, 4k y 8k. Cada tamaño de imágen fue puesto en ejecución tanto en el algoritmo secuencial (CPU) como en las implementaciones paralelas mencionadas anteriormente (GPU) un total de 10 veces.
